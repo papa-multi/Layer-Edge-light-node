@@ -53,12 +53,18 @@ export PRIVATE_KEY='cli-node-private-key'
 # Start the Merkle Service
 
 ```
+screen -S risc0-merkle-service
+```
+```
 cd risc0-merkle-service
 cargo build && cargo run
 ```
+ctrl+A+D
 
 # Build & Run the Light Node
-
+```
+screen -S CLI
+```
 ```
 cd ~/light-node
 go build
