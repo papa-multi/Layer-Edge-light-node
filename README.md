@@ -39,7 +39,7 @@ curl -L https://risczero.com/install | bash && rzup install
 nano .env
 ```
 
-save them in a ```.env file```
+save them in a ```.env file``` with out 0x
 
 ```
 export GRPC_URL=34.31.74.109:9090
